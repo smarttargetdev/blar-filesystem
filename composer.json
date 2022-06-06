@@ -1,0 +1,37 @@
+{
+    "name": "blar/filesystem",
+    "description": "Filesystem for PHP",
+    "type": "library",
+    "keywords": [
+        "php",
+        "filesystem"
+    ],
+    "homepage": "https://github.com/blar/filesystem/",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Andreas Treichel",
+            "email": "gmblar+github@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "^1.0",
+        "blar/streams": "dev-master"
+    },
+    "suggest": {
+        "blar/streams": "Open files as streams to read and write"
+    },
+    "support": {
+        "source": "https://github.com/blar/filesystem/",
+        "issues": "https://github.com/blar/filesystem/issues",
+        "wiki": "https://github.com/blar/filesystem/wiki"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blar\\Filesystem\\": "lib/Blar/Filesystem/"
+        }
+    }
+}
